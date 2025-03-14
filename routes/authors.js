@@ -38,16 +38,7 @@ router.post('/', async (req,res) => {
             errorMessage: "Error creating Author"
         })
     }
-    // author.save()
-    // .then((newAuthor) => {
-    //     res.render('authors')
-    // })
-    // .catch((err) => {
-    //     res.render('authors/new',{
-    //         author: author,
-    //         errorMessage: 'Error Creating Author..'
-    //     })
-    // })
+
     
 })
 
